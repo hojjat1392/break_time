@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Berak Time Project</title>
+
+<script src="javaScript.js"></script>
+<style>
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+p {
+    transition-duration: 1000ms;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition-duration: 500ms;
+}
+h1 {
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+
+
+</style>
+</head>
+<body onload="setInterval()">
+    <br>
+    <br>
+    <br>
+    <h1 id="date"></h1>
+    <h1 id="time"></h1>
+</body>
+</html>
